@@ -8,8 +8,8 @@ LSTM_Keras_3hr.ipynb : 観測データのみを使ったLSTMによる霧の短�
 Glmnet_Binomial.R : Elastic Netによる霧予測実験  
 AI_Fog_Forecast_Challenge.pdf : 霧予測実験のまとめ資料 Ver.1  
 
-以下Ver.2としての追加
-UnderSampling_Bagging_CLF.ipynb : Under Sampling & Baggingによる予測実験（霧は極度の不均衡データ）
-DNN_CLF_LearningRate1.ipynb : AdamのLearning Rateを小さくすることで、精度向上に成功（class_weightも調整）
-DNN_CLF_Interpretation.ipynb : DNNの内部を解釈する試み
-まとめ資料は製作中
+以下Ver.2としての追加  
+UnderSampling_Bagging_CLF.ipynb : Under Sampling & Baggingによる予測実験（霧は極度の不均衡データ）  
+DNN_CLF_LearningRate1.ipynb : AdamのLearning Rateを小さくすることで、精度向上に成功（class_weightも調整）  
+DNN_CLF_Interpretation.ipynb : DNNの内部を解釈する試み  
+まとめ資料は製作中  
