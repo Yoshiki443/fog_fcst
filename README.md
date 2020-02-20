@@ -15,8 +15,8 @@ DNN_CLF_LearningRate1.ipynb : AdamのLearning Rateを小さくすることで、
 DNN_CLF_Interpretation.ipynb : DNNの内部を解釈する試み  
 発表スライド：https://www.slideshare.net/YoshikiKato2/ai-131126419  
 
-気象データは気象庁数値予報MSMの予測データから成田空港地点を切り出したものと、METAR(空港観測データ)を使っています。  
+気象データは気象庁数値予報MSMのGPVから成田空港地点を切り出したものと、METAR(空港観測データ)を使っています。  
 これら4年分をPre-process.ipynbで結合して、学習・検証用データセットを作りCSVファイルで書き出します。  
-ただここに全データをアップすることはできないので、Pre-process.ipynbが出力するCSVファイルの一部をとして公開します。  
-sample_data.csv  
+ただここに全データをアップすることはできないので、Pre-process.ipynbが出力するCSVファイルの一部を公開します。  
+(sample_data.csv)  
 どんなデータを使っているかの雰囲気が伝われば幸いです。
