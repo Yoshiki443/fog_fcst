@@ -1,4 +1,4 @@
-「AIによる成田空港の霧予測実験」  
+# AIによる成田空港の霧予測実験
 様々な機械学習アルゴリズムを駆使して、成田空港における霧の発生予測にチャレンジしました（2018）  
 データミックス社「データサイエンティスト育成講座」卒業課題として取り組みました  
 
@@ -14,3 +14,8 @@ UnderSampling_Bagging_CLF.ipynb : Under Sampling & Baggingによる予測実験�
 DNN_CLF_LearningRate1.ipynb : AdamのLearning Rateを小さくすることで、精度向上に成功（class_weightも調整）  
 DNN_CLF_Interpretation.ipynb : DNNの内部を解釈する試み  
 発表スライド：https://www.slideshare.net/YoshikiKato2/ai-131126419  
+
+気象データは気象庁数値予報モデルMSMの予測データから成田空港地点を切り出したものと、METAR(空港観測データ)を使っています。  
+これら4年分をPre-process.ipynbで結合して、学習・検証用データセットを作りCSVファイルで書き出します。  
+ただここに全データをアップすることはできないので、Pre-process.ipynbが出力するCSVファイルの一部をsample_data.csvとして公開します。  
+どんなデータを使っているかの雰囲気が伝われば幸いです。
